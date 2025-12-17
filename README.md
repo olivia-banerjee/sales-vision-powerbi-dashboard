@@ -1,31 +1,16 @@
 # sales-vision-powerbi-dashboard
 # 📊 Sales Vision: Market & Profitability Insights Dashboard
 
-## 📑 Table of Contents
-
-1. [Project Title / Headline](#1-project-title--headline)
-2. [Short Description / Purpose](#2-short-description--purpose)
-3. [Tech Stack](#3-tech-stack)
-4. [Data Source](#4-data-source)
-5. [Data Structure](#5-data-structure)
-6. [ETL Process Highlights](#6-etl-process-highlights)
-7. [Key KPIs](#7-key-kpis)
-8. [Dashboard Walkthrough](#8-dashboard-walkthrough)
-9. [Business Insights & Impact](#9-business-insights--impact)
-10.[Business Value Delivered](#10-business-value-delivered)
-11.[Conclusion](#11-conclusion)
-12.[Screenshots / Demos](#12-screenshots--demos)
-
 ---
 
-## 1. Project Title / Headline
+## 1. Project Title 
 
 **Sales Vision – Market & Profitability Insights Dashboard**
 An interactive sales analytics dashboard built using SQL and Power BI to provide a clear, data-driven view of revenue, profitability, customer performance, and market trends.
 
 ---
 
-## 2. Short Description / Purpose
+## 2. Purpose
 
 Sales Vision is a comprehensive business intelligence dashboard designed to help stakeholders monitor sales performance, identify profit optimization opportunities, and understand customer and market dynamics. It transforms raw transactional data into actionable insights for faster and smarter decision-making.
 
@@ -187,10 +172,3 @@ Sales Vision demonstrates an end-to-end data analytics workflow, combining SQL-b
 
 ---
 
-## 12. Screenshots / Demos
-
-
-
----
-
-⭐ If you find this project useful, feel free to star the repository and share feedback.
