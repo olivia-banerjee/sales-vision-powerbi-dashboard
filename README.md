@@ -3,24 +3,24 @@
 
 ---
 
-## 1. Project Title 
+## Project Title 
 
 **Sales Vision – Market & Profitability Insights Dashboard**
 An interactive sales analytics dashboard built using SQL and Power BI to provide a clear, data-driven view of revenue, profitability, customer performance, and market trends.
 
 ---
 
-## 📌 Table of Contents
-1. [Purpose](#2-purpose)
-2. [Tech Stack](#3-tech-stack)
-3. [Data Source](#4-data-source)
-4. [Data Structure](#5-data-structure)
-5. [ETL Process Highlights](#6-etl-process-highlights)
-6. [Key KPIs](#7-key-kpis)
-7. [Dashboard Walkthrough](#8-dashboard-walkthrough)
-8. [Business Value Delivered](#9-business-value-delivered)
-9. [Key Takeaways](#10-key-takeaways)
-10. [Final Conclusion](#11-final-conclusion)
+## Table of Contents
+1. [Purpose](#1-purpose)
+2. [Tech Stack](#2-tech-stack)
+3. [Data Source](#3-data-source)
+4. [Data Structure](#4-data-structure)
+5. [ETL Process Highlights](#5-etl-process-highlights)
+6. [Key KPIs](#6-key-kpis)
+7. [Dashboard Walkthrough](#7-dashboard-walkthrough)
+8. [Business Value Delivered](#8-business-value-delivered)
+9. [Key Takeaways](#9-key-takeaways)
+10. [Final Conclusion](#10-final-conclusion)
 
 ---
 
