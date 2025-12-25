@@ -24,13 +24,13 @@ An interactive sales analytics dashboard built using SQL and Power BI to provide
 
 ---
 
-## 2. Purpose
+## 1. Purpose
 
 Sales Vision is a comprehensive business intelligence dashboard designed to help stakeholders monitor sales performance, identify profit optimization opportunities, and understand customer and market dynamics. It transforms raw transactional data into actionable insights for faster and smarter decision-making.
 
 ---
 
-## 3. Tech Stack
+## 2. Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
@@ -43,7 +43,7 @@ The dashboard was built using the following tools and technologies:
 
 ---
 
-## 4. Data Source
+## 3. Data Source
 
 **Source:** https://codebasics.io/resources/sales-insights-data-analysis-project
 
@@ -51,7 +51,7 @@ The dataset contains multi-year transactional sales data across customers, produ
 
 ---
 
-## 5. Data Structure
+## 4. Data Structure
 
 The data follows a **star-schema model** optimized for analytics and reporting.
 
@@ -73,7 +73,7 @@ Relationships are established between the transactions table and each dimension 
 
 ---
 
-## 6. ETL Process Highlights
+## 5. ETL Process Highlights
 
 ### • Extract
 
@@ -106,7 +106,7 @@ Relationships are established between the transactions table and each dimension 
 
 ---
 
-## 7. Key KPIs
+## 6. Key KPIs
 
 * **Total Revenue (₹)**
 * **Total Profit (₹)**
@@ -121,7 +121,7 @@ Relationships are established between the transactions table and each dimension 
 
 ---
 
-## 8. Dashboard Walkthrough
+## 7. Dashboard Walkthrough
 
 ### Top KPIs
 
@@ -158,7 +158,7 @@ Allows stakeholders to explore performance from multiple perspectives.
 
 ---
 
-## 9. Business Value Delivered
+## 8. Business Value Delivered
 
 * **Revenue Risk Reduction (~25–30%)**: Exposed heavy dependency on a small group of customers and markets, enabling diversification planning that reduces revenue concentration risk and improves business stability.
 
@@ -174,7 +174,7 @@ Allows stakeholders to explore performance from multiple perspectives.
 
 ---
 
-## 10. Key Takeaways
+## 9. Key Takeaways
 
 * Enables faster, data-driven decision-making
 * Improves visibility into revenue and profitability drivers
@@ -183,7 +183,7 @@ Allows stakeholders to explore performance from multiple perspectives.
 
 ---
 
-## 11. Final Conclusion
+## 10. Final Conclusion
 
 Sales Vision demonstrates an end-to-end data analytics workflow, combining SQL-based analysis, ETL processing, and interactive Power BI dashboards to deliver business-ready insights. The project highlights strong analytical, visualization, and storytelling skills aligned with real-world business needs.
 
