@@ -11,68 +11,18 @@ An interactive sales analytics dashboard built using SQL and Power BI to provide
 ---
 
 ## 📌 Table of Contents
-1. [Project Title](#1-project-title)
-2. [Purpose](#2-purpose)
-3. [Tech Stack](#3-tech-stack)
-4. [Data Source](#4-data-source)
-5. [Data Structure](#5-data-structure)
-6. [ETL Process Highlights](#6-etl-process-highlights)
-7. [Key KPIs](#7-key-kpis)
-8. [Dashboard Walkthrough](#8-dashboard-walkthrough)
-9. [Business Value Delivered](#9-business-value-delivered)
-10. [Key Takeaways](#10-key-takeaways)
-11. [Final Conclusion](#11-final-conclusion)
+1. [Purpose](#2-purpose)
+2. [Tech Stack](#3-tech-stack)
+3. [Data Source](#4-data-source)
+4. [Data Structure](#5-data-structure)
+5. [ETL Process Highlights](#6-etl-process-highlights)
+6. [Key KPIs](#7-key-kpis)
+7. [Dashboard Walkthrough](#8-dashboard-walkthrough)
+8. [Business Value Delivered](#9-business-value-delivered)
+9. [Key Takeaways](#10-key-takeaways)
+10. [Final Conclusion](#11-final-conclusion)
 
 ---
-
- Formats** – `.pbix`, `.png`
-
----
-
-## 4. Data Source
-**Source:** https://codebasics.io/resources/sales-insights-data-analysis-project
-
-Contains multi-year transactional sales data across customers, markets, and products — structured to enable revenue, profitability & trend analysis.
-
----
-
-## 5. Data Structure
-
-Star-schema model optimized for analytics:
-
-### **Fact Table**
-- `transactions`
-
-### **Dimension Tables**
-- `customers`
-- `products`
-- `markets`
-- `date`
-
-**Data Modeling:**  
-Relationships are established using foreign keys connecting `transactions` to each dimension.
-
----
-
-## 6. ETL Process Highlights
-
-### **Extract**
-- Imported `db_dump.sql` into MySQL
-- Queried `transactions`, `customers`, `date` tables
-
-### **Transform**
-- Cleaned currency inconsistencies (`INR` / `USD`)
-- Normalized USD → INR
-
-```powerquery
-= Table.AddColumn(
-    #"Filtered Rows",
-    "norm_amount",
-    each if [currency] = "USD" or [currency] = "USD#(cr)"
-    then [sales_amount] * 75
-    else [sales_amount],
-    type any
-)
 
 ## 2. Purpose
 
